@@ -526,7 +526,7 @@ Für Unternehmen und erweiterte Anpassungen:
 
 ---
 
-**Entwickelt mit ❤️ von Manus AI Assistant**
+**Entwickelt von tibo**
 
 *Letzte Aktualisierung: 2025-07-03*
 

@@ -3,7 +3,7 @@
 Immobilien-Bewerbungsbot
 Automatisierte Bewerbung auf neue Immobilienangebote von Immonet und ImmobilienScout24
 
-Autor: Manus AI Assistant
+Autor: tibo
 Datum: 2025-07-03
 """
 

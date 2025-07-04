@@ -132,7 +132,7 @@ Das Projekt ist vollständig funktionsfähig und produktionsreif. Der Bot kann s
 
 ---
 
-**Entwickelt von Manus AI Assistant**  
+**Entwickelt von tibo**  
 *Datum: 2025-07-03*  
 *Status: ✅ Vollständig implementiert und getestet*
 

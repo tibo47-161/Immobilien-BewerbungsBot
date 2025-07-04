@@ -112,4 +112,4 @@ Pull Requests und Feature-Ideen sind willkommen!
 
 ---
 
-**Entwickelt mit ❤️ von Manus AI Assistant** 
+**Entwickelt von tibo** 

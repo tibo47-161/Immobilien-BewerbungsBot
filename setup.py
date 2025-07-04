@@ -3,7 +3,7 @@
 Setup-Skript für den Immobilien-Bewerbungsbot
 Automatische Installation und Konfiguration
 
-Autor: Manus AI Assistant
+Autor: tibo
 Datum: 2025-07-03
 """
 

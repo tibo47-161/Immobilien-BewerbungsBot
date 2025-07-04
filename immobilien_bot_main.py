@@ -3,7 +3,7 @@
 Hauptklasse für den Immobilien-Bewerbungsbot
 Orchestriert die verschiedenen Scraper und Automatisierungsprozesse
 
-Autor: Manus AI Assistant
+Autor: tibo
 Datum: 2025-07-03
 """
 

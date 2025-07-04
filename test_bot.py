@@ -3,7 +3,7 @@
 Test-Skript für den Immobilien-Bewerbungsbot
 Testet die Grundfunktionalitäten ohne echte Bewerbungen
 
-Autor: Manus AI Assistant
+Autor: tibo
 Datum: 2025-07-03
 """
 

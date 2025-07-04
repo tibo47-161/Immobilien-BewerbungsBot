@@ -3,7 +3,7 @@
 E-Mail Manager für den Immobilien-Bewerbungsbot
 Erweiterte E-Mail-Funktionalitäten und Benachrichtigungen
 
-Autor: Manus AI Assistant
+Autor: tibo
 Datum: 2025-07-03
 """
 
