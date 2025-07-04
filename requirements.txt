@@ -1,0 +1,38 @@
+# Immobilien-Bewerbungsbot Requirements
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+
+# Scheduling und Threading
+schedule>=1.2.0
+
+# Datenbank
+sqlite3  # Built-in Python module
+
+# E-Mail
+smtplib  # Built-in Python module
+email  # Built-in Python module
+
+# Utilities
+lxml>=4.9.0
+urllib3>=2.0.0
+
+# Optional: Für erweiterte Anti-Detection
+fake-useragent>=1.4.0
+undetected-chromedriver>=3.5.0
+
+# Optional: Für Proxy-Support
+requests[socks]>=2.31.0
+
+# Optional: Für bessere Logging
+colorlog>=6.7.0
+
+# Optional: Für Konfigurationsdateien
+pyyaml>=6.0
+configparser  # Built-in Python module
+
+# Optional: Für erweiterte Datenanalyse
+pandas>=2.0.0
+numpy>=1.24.0
+

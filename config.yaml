@@ -1,0 +1,101 @@
+# Immobilien-Bewerbungsbot Konfiguration
+# Passen Sie diese Datei an Ihre Bedürfnisse an
+
+# Persönliche Daten für Bewerbungen
+personal:
+  anrede: "Herr"  # Herr, Frau, Divers
+  vorname: "Max"
+  nachname: "Mustermann"
+  email: "max.mustermann@example.com"
+  telefon: "0123456789"
+  strasse: "Musterstraße 1"
+  plz: "12345"
+  ort: "Berlin"
+
+# Bewerbungstext (wird in das Nachrichtenfeld eingefügt)
+bewerbungstext: |
+  Sehr geehrte Damen und Herren,
+  
+  hiermit bewerbe ich mich um die ausgeschriebene Wohnung. Ich bin ein zuverlässiger Mieter mit festem Einkommen und kann alle erforderlichen Unterlagen vorlegen.
+  
+  Über eine positive Rückmeldung würde ich mich sehr freuen.
+  
+  Mit freundlichen Grüßen
+  Max Mustermann
+
+# Suchkriterien
+suchkriterien:
+  max_preis: 1500.0  # Maximaler Mietpreis in Euro
+  min_zimmer: 2      # Mindestanzahl Zimmer
+  max_zimmer: 4      # Maximale Anzahl Zimmer
+  suchstaedte:       # Liste der Städte, in denen gesucht werden soll
+    - "Berlin"
+    - "München"
+    - "Hamburg"
+
+# E-Mail Konfiguration (für Benachrichtigungen)
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  smtp_username: ""  # Ihre E-Mail-Adresse
+  smtp_password: ""  # App-Passwort (nicht das normale Passwort!)
+  
+  # Benachrichtigungseinstellungen
+  benachrichtigungen:
+    email_bei_neuen_angeboten: true
+    email_bei_fehlern: true
+    tages_zusammenfassung: true
+    wochen_zusammenfassung: false
+    min_angebote_fuer_email: 1
+    max_emails_pro_tag: 10
+
+# Bot-Einstellungen
+bot:
+  intervall_minuten: 30        # Wie oft soll der Bot nach neuen Angeboten suchen?
+  max_bewerbungen_pro_tag: 20  # Maximale Anzahl Bewerbungen pro Tag
+  pause_zwischen_bewerbungen:  # Pause zwischen Bewerbungen (in Sekunden)
+    min: 30
+    max: 60
+  
+  # Anti-Detection Einstellungen
+  anti_detection:
+    random_user_agents: true
+    random_delays: true
+    headless_browser: true
+    
+  # Welche Websites sollen verwendet werden?
+  aktive_websites:
+    immonet: true
+    immobilienscout24: false  # Aufgrund Bot-Erkennung standardmäßig deaktiviert
+
+# Datenbank-Einstellungen
+database:
+  pfad: "immobilien_bot.db"
+  backup_intervall_tage: 7
+
+# Logging-Einstellungen
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  datei: "immobilien_bot.log"
+  max_groesse_mb: 10
+  backup_anzahl: 5
+
+# Erweiterte Einstellungen
+erweitert:
+  # Proxy-Einstellungen (optional)
+  proxy:
+    verwenden: false
+    http_proxy: ""
+    https_proxy: ""
+  
+  # Webhook-Benachrichtigungen (optional)
+  webhook:
+    verwenden: false
+    url: ""
+    
+  # Telegram-Bot (optional)
+  telegram:
+    verwenden: false
+    bot_token: ""
+    chat_id: ""
+
