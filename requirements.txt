@@ -8,11 +8,10 @@ selenium>=4.15.0
 schedule>=1.2.0
 
 # Datenbank
-sqlite3  # Built-in Python module
+# sqlite3 entfernen, da es ein Standardmodul ist
 
 # E-Mail
-smtplib  # Built-in Python module
-email  # Built-in Python module
+# smtplib entfernen, da es ein Standardmodul ist
 
 # Utilities
 lxml>=4.9.0
